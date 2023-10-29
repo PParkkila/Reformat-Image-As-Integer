@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fileReader.C": "cpp"
+    },
+    "python.analysis.extraPaths": [
+        "./FilesIO"
+    ]
+}

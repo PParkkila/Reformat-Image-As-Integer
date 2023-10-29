@@ -2,6 +2,7 @@ import math
 from PIL import Image
 import analyze_numbers
 from util import findMinBrightness, findMaxBrightness, switch
+from FilesIO.file_writer import write_file
 
 
 
@@ -17,7 +18,7 @@ actualNumsList = []
 
 pixels = list(im.getdata())
 width, height = im.size
-
+im.close()
 
 
 
@@ -78,6 +79,7 @@ for i in range(len(tempBrightnessList)):
 print(actualNumsList)
 
 def outputValues(width, height):
+    
     f = open(r"output.txt","w")
 
 
