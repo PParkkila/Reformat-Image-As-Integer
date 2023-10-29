@@ -93,7 +93,7 @@ def switch(digit):
             pass
 
 
-im = Image.open("PNG_To_Numbers/numbers/zero.png")
+im = Image.open("numbers/zero.png")
 
 
 numToColorsList = analyze_numbers.setList()
@@ -166,7 +166,7 @@ for i in range(len(tempBrightnessList)):
 print(actualNumsList)
 
 def outputValues(width, height):
-    f = open(r"PNG_To_Numbers/output.txt","w")
+    f = open(r"output.txt","w")
 
 
 

@@ -13,16 +13,16 @@ def ruleSortAscending(entry):
 
 def setList():
 
-    zeroIMG = Image.open("PNG_To_Numbers/numbers/zero.png")
-    oneIMG = Image.open("PNG_To_Numbers/numbers/one.png")
-    twoIMG = Image.open("PNG_To_Numbers/numbers/two.png")
-    threeIMG = Image.open("PNG_To_Numbers/numbers/three.png")
-    fourIMG = Image.open("PNG_To_Numbers/numbers/four.png")
-    fiveIMG = Image.open("PNG_To_Numbers/numbers/five.png")
-    sixIMG = Image.open("PNG_To_Numbers/numbers/six.png")
-    sevenIMG = Image.open("PNG_To_Numbers/numbers/seven.png")
-    eightIMG = Image.open("PNG_To_Numbers/numbers/eight.png")
-    nineIMG = Image.open("PNG_To_Numbers/numbers/nine.png")
+    zeroIMG = Image.open("numbers/zero.png")
+    oneIMG = Image.open("numbers/one.png")
+    twoIMG = Image.open("numbers/two.png")
+    threeIMG = Image.open("numbers/three.png")
+    fourIMG = Image.open("numbers/four.png")
+    fiveIMG = Image.open("numbers/five.png")
+    sixIMG = Image.open("numbers/six.png")
+    sevenIMG = Image.open("numbers/seven.png")
+    eightIMG = Image.open("numbers/eight.png")
+    nineIMG = Image.open("numbers/nine.png")
 
     images = [zeroIMG, oneIMG, twoIMG, threeIMG, fourIMG, fiveIMG, sixIMG, sevenIMG, eightIMG, nineIMG]
 
