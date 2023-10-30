@@ -6,7 +6,7 @@ from FilesIO.file_writer import write_file
 
 
 
-im = Image.open("numbers/two.png")
+im = Image.open("numbers/six.png")
 
 
 numToColorsList = analyze_numbers.setList()
