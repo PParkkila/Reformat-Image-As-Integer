@@ -68,7 +68,7 @@ for pixel in pixels:
 
 # print(tempBrightnessList)
 scaleBrightness(findMinBrightness(tempBrightnessList),findMaxBrightness(tempBrightnessList), tempBrightnessList)
-print(tempBrightnessList)
+# print(tempBrightnessList)
 
 for i in range(len(tempBrightnessList)):
 
@@ -76,7 +76,7 @@ for i in range(len(tempBrightnessList)):
 
 
 
-print(actualNumsList)
+# print(actualNumsList)
 
 def outputValues(width, height):
     
@@ -108,7 +108,7 @@ outputValues(width, height)
 
 
 
-
+print("\nProgram Success.\n")
 
 
 

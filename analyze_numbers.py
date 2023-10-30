@@ -82,13 +82,13 @@ def setList():
     for key in numToColorsDict:
         digitsWeights.append(numToColorsDict[key])
 
-    print(digitsWeights)
-    print("\n\n")
+    # print(digitsWeights)
+    # print("\n\n")
 
     digitsWeights.sort(key=ruleSortAscending)
         
-    print(digitsWeights)
-    print("\n\n")
+    # print(digitsWeights)
+    # print("\n\n")
 
     return digitsWeights
     
